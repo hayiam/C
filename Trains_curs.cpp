@@ -5,6 +5,7 @@
 #include <Windows.h>
 #undef max
 
+// simple program to add and delete info about trains
 struct Train {
     int trainNumber; // номер поезда
     std::string destination; // станция назначения
@@ -202,4 +203,5 @@ int main() {
     }
 
     return 0;
+
 }
